@@ -1,4 +1,5 @@
 const d = document;
+const BASE_URL = window.location.href.replace(/\/$/, '');
 
 const $calculo = d.querySelector(".calculo"),
      $resultado = d.querySelector(".resultado"),
